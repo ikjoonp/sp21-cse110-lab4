@@ -1,4 +1,4 @@
-**Part 1a**
+## Part 1a
 1. Line 9 prints    values added: 20
 2. Line 13 prints   final result: 20
 3. Line 9 prints    values added: 20
@@ -6,7 +6,7 @@
 5. Line 9 returns an error because we are reassigning a constant on line 7.
 6. Line 13 returns an error because the result variable only exists in the scope of the if statement.
    
-##Part 1b
+## Part 1b
 1. Line 12 will print the value of i which is 3 to the console. This will occur because var i exists outside of the for loop which exits after 3 loops because the length of the price array is 3.
 2. Line 13 will print the value of discountedPrice which is 150 to the console. This will occur because the variable exists outside of the for loop it was declared in. The variable can also be reassigned. The last thing the variable is assigned is prices[2] * (1 - 0.5) which is 300 * 0.5 = 150.
 3. Line 14 will print the value of finalPrice which is 150. The variable finalPrice can be altered in the for loop, holding the final discounted price of each number in the array in each loop. The last loop of the for loop saw discountedPrice = 150, where we then multiply by 100 to get 150000 and then divide by 100 back to 150. We round this to the nearest integer which is just 150 again.
